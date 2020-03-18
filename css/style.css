@@ -1,0 +1,75 @@
+/* css for main page layout */
+body{
+    background-color: teal;
+    margin: 20px 0;
+    font-family: 'Times New Roman', Times, serif, Arial;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* css for navigation menu */
+.navList{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navLinks{
+    display: inline;
+    margin: 0px 20px;
+}
+
+/* css for links */
+a {
+  color: #055798;
+}
+
+a:active, a:hover {
+  color: #00008B;
+  text-decoration: underline;
+}
+
+/*css for sections of page*/
+header{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.subHeader{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+header > #name{
+    font-size: 2em;
+}
+
+main{
+    padding: 50px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+section{
+    width: 40%;
+    float: left;
+}
+
+aside{
+    width: 60%;
+    float: right;
+}
+
+.extra{
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
